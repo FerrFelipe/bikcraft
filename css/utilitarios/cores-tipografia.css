@@ -1,0 +1,121 @@
+:root{
+    --c0: #FFFFFF;
+    --c1: #F7F7F7;
+    --c2: #EDEDED;
+    --c3: #DEDEDE;
+    --c4: #CCCCCC;
+    --c5: #B3B3B3;
+    --c6: #9C9C9C; 
+    --c7: #707070;
+    --c8: #595959;
+    --c9: #404040; 
+    --c10: #2D2D2D;
+    --c11: #121212;
+    --c12: #000000;
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #A66F00;
+    --p2: #E4A30B;
+    --p1: #FFBB00;
+    --g: linear-gradient(#FFBF00, #F2A50C)
+}
+.c0{
+    color: var(--c0);
+}.c1{
+    color: var(--c1);
+}.c2{
+    color: var(--c2);
+}.c3{
+    color: var(--c3);
+}.c4{
+    color: var(--c4);
+}.c5{
+    color: var(--c5);
+}.c6{
+    color: var(--c6);
+}.c7{
+    color: var(--c7);
+}.c8{
+    color: var(--c8);
+}.c9{
+    color: var(--c9);
+}.c10{
+    color: var(--c10);
+}.c11{
+    color: var(--c11);
+}.c12{
+    color: var(--c12);
+}.p1{
+    color: var(--p1);
+}.p2{
+    color: var(--p2);
+}.p3{
+    color: var(--p3);
+}.p4{
+    color: var(--p4);
+}.p5{
+    color: var(--p5);
+}
+.font-1-xxl{
+    font: 600 4rem/1.125 "poppins";
+}
+.font-1-xxl span{
+    color: var(--p1);
+}
+.font-1-xl{
+    font: 600 2rem/1.25 "poppins";
+}
+.font-2-xl{
+    font: 500 2rem/1.25 "roboto";
+}
+.font-1-l{
+    font: 600 1.5rem/1.5 "poppins";
+}
+.font-2-l{
+    font: 400 1.5rem/1.5 "roboto";
+}
+.font-2-l-b{
+    text-transform: uppercase;
+    letter-spacing: 1.5%;
+    font: 500 1.5rem/1.5 "roboto";
+}
+.font-1-m{
+    font: 400 1.125rem/1.333 "poppins";
+}
+.font-1-m-b{
+    font: 600 1.125rem/1.333 "poppins";
+}
+.font-2-m{
+    font: 500 1.125rem/1.333 "roboto";
+}
+.font-1-m-m{
+    font: 400 1.125rem/1.777 "poppins";
+}
+.font-1-s{
+    font: 400 1rem/1.5 "poppins";
+}
+.font-2-s{
+    font: 400 1rem/1.5 "roboto";
+}
+.font-2-xs{
+    font: 400 0.875rem/1.42 "roboto";
+}
+.font-1-xs{
+    font: 600 0.75rem/1.333 "poppins";
+}
+@media (max-width: 1200px){
+    .font-1-xxl{
+        font-size: 3rem;
+    }
+    .font-2-l, .font-2-l-b{
+        font-size: 1.125rem;
+    }
+}
+@media (max-width: 800px){
+    .font-1-xxl{
+        font-size: 2rem;
+    }
+    .font-1-xl, .font-2-xl{
+        font-size: 1.5rem;
+    }
+}
