@@ -65,6 +65,9 @@
 .font-1-xl{
     font: 600 2rem/1.25 "poppins";
 }
+.font-1-xl-b{
+    font: 500 2rem/1.25 "poppins";
+}
 .font-2-xl{
     font: 500 2rem/1.25 "roboto";
 }

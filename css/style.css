@@ -4,7 +4,8 @@
 @import "./utilitarios/componentes.css";
 @import "./utilitarios/cores-tipografia.css";
 @import "./home/escolha.css";
+@import "./home/tecnologia.css";
 
 body{
-    height: 2000px;
+    height: 20000px;
 }
