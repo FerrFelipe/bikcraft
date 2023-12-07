@@ -2,6 +2,12 @@ footer{
     background-color: var(--c12);
     padding-bottom: 32px;
 }
+footer a:hover{
+    color: var(--c2);
+}
+.redes a:hover{
+    background: red;
+}
 .redes{
     display: flex;
     gap: 32px;
@@ -21,7 +27,7 @@ footer{
 .cont li:nth-child(even):after{
     content: "";
     display: block;
-    width: 100%;
+    width: 75%;
     height: 2px;
     background: var(--c11);
     margin-top: 16px;
@@ -34,15 +40,21 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-@media(max-width:600px){
+@media(max-width:800px){
     .footer-cont{
-        grid-template-columns: 1fr;
-        gap: 0px;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
     .footer-cont > img{
-        margin-bottom: 32px;
+        display: none;
     }
     .redes li{
         margin-bottom: 0px;
+    }
+}
+@media(max-width:600px){
+    .footer-cont{
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 }
