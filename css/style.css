@@ -5,6 +5,8 @@
 @import "./utilitarios/cores-tipografia.css";
 @import "./home/escolha.css";
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 body{
     height: 20000px;

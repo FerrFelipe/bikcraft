@@ -1,5 +1,6 @@
 .escolha{
     padding-top: 60px;
+    margin-bottom: 120px;
 }
 .escolha h2{
     padding-bottom: 20px;
@@ -46,6 +47,11 @@
 
 .bicicletas li{
     min-width: 280px;
+}
+@media (max-width: 900px){
+    .escolha{
+        margin-bottom: 60px;
+    }
 }
 @media (max-width: 800px){
     .bicicletas{
