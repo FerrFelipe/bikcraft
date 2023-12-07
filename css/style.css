@@ -7,7 +7,8 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+@import "./home/seguro.css";
 
 body{
-    height: 20000px;
+  height: 20000px;
 }
