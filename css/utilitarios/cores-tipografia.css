@@ -109,6 +109,9 @@
 .font-3{
     font: 900 2.25rem/1.333 'merriweather';
 }
+.font-2-m-m{
+    font: 400 1.125rem/1.42 "roboto";
+}
 @media (max-width: 1200px){
     .font-1-xxl{
         font-size: 3rem;

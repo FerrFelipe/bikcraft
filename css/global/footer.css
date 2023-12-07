@@ -1,0 +1,48 @@
+footer{
+    background-color: var(--c12);
+    padding-bottom: 32px;
+}
+.redes{
+    display: flex;
+    gap: 32px;
+}
+.footer-cont h2{
+    margin-bottom: 32px;
+}
+.contato, .informacoes ul{
+    margin-bottom: 32px;
+}
+.contato li{
+    margin-bottom: 16px;
+}
+.informacoes li{
+    margin-bottom: 16px;
+}
+.cont li:nth-child(even):after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--c11);
+    margin-top: 16px;
+    max-width: 360px;
+}
+.footer-cont{
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+@media(max-width:600px){
+    .footer-cont{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .footer-cont > img{
+        margin-bottom: 32px;
+    }
+    .redes li{
+        margin-bottom: 0px;
+    }
+}

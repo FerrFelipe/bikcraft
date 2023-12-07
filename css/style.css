@@ -8,7 +8,4 @@
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 @import "./home/seguro.css";
-
-body{
-  height: 20000px;
-}
+@import"./global/footer.css";
