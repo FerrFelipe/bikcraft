@@ -1,8 +1,14 @@
-.seguros {
+.seguros-bg {
   background-color: var(--c11);
 }
-.seguros h1 {
+.seguros-bg h1 {
   margin-bottom: 60px;
+}
+#seguros .seguros-bg h1{
+  margin-bottom: 0px;
+}
+#seguros .container-seguros{
+  padding-top: 0px;
 }
 .container-seguros {
   padding-top: 60px;
@@ -81,9 +87,15 @@
     text-align: start;
   }
   .ouro {
-    padding: 24px 24px 24px 36px;
+    padding: 24px 24px 24px 44px;
   }
   .prata {
-    padding: 24px 24px 24px 36px;
+    padding: 24px 24px 24px 44px;
+  }
+  #seguros .container-seguros{
+    padding-bottom: 60px;
+  }
+  .opcoes li:before{
+    left: -25px;
   }
 }
