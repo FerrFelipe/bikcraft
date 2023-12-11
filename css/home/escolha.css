@@ -1,60 +1,66 @@
-.escolha{
-    padding-top: 60px;
-    margin-bottom: 120px;
+.escolha {
+  padding-top: 60px;
+  margin-bottom: 120px;
 }
-.escolha h2{
-    padding-bottom: 20px;
+#bicicleta .escolha {
+  margin-bottom: 60px;
 }
-.bicicletas{
-    display: flex;
-    gap: 40px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1500px;
-    padding: 0px 20px 20px 20px;
-    overflow-x: auto;
+.escolha h2 {
+  padding-bottom: 20px;
 }
-.bicicletas h2{
-    padding-bottom: 40px;
+.bicicletas {
+  display: flex;
+  gap: 40px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  padding: 0px 20px 20px 20px;
+  overflow-x: auto;
 }
-.bicicletas a{
-    display: block;
+#bicicleta .bicicletas {
+  padding: 0px 0px 20px 0px;
 }
-.bicicletas span{
-    padding-left: 20px;
+.bicicletas h2 {
+  padding-bottom: 40px;
 }
-.bicicletas img{
-    padding-bottom: 16px;
+.bicicletas a {
+  display: block;
 }
-.bicicletas h3{
-    padding-bottom: 8px;
-    display: flex;
-    align-items: center;
+.bicicletas span {
+  padding-left: 20px;
 }
-.bicicletas h3::before{
-    content: "";
-    height: 8px;
-    width: 12px;
-    display: inline-block;
-    margin-right: 8px;
-    background-color: var(--p1);
-    transition: width 0.2s;
+.bicicletas img {
+  padding-bottom: 16px;
 }
-.bicicletas a:hover h3::before{
-    width: 24px;
+.bicicletas h3 {
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.bicicletas h3::before {
+  content: "";
+  height: 8px;
+  width: 12px;
+  display: inline-block;
+  margin-right: 8px;
+  background-color: var(--p1);
+  transition: width 0.2s;
+}
+.bicicletas a:hover h3::before {
+  width: 24px;
 }
 
-.bicicletas li{
-    min-width: 280px;
+.bicicletas li {
+  min-width: 280px;
 }
-@media (max-width: 900px){
-    .escolha{
-        margin-bottom: 60px;
-    }
+@media (max-width: 900px) {
+  .escolha {
+    margin-bottom: 60px;
+  }
 }
-@media (max-width: 800px){
-    .bicicletas{
-        gap: 20px;
-    }
+@media (max-width: 800px) {
+  .bicicletas {
+    gap: 20px;
+  }
 }
