@@ -2,6 +2,7 @@
     background-image: linear-gradient(to right, var(--c0) 30%, var(--c11) 0%);
 }
 .bike{
+    background: url('../../img/dec/top-right.svg') no-repeat top 40px right 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
