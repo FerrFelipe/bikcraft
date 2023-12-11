@@ -70,6 +70,9 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .bike-bg{
+        background: var(--c11);
+    }
 }
 @media (max-width: 600px){
     .bike-bg{
