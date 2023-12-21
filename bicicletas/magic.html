@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Bikcraft">
+    <meta name="description" content="Bikcraft" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magic Might | Bikcraft</title>
@@ -13,6 +13,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="bicicleta">
     <header class="header-bg">
@@ -49,7 +52,11 @@
             velocidade.
           </p>
           <div class="bicicleta-comprar">
-            <a class="botao" href="../orcamento.html">Comprar Agora</a>
+            <a
+              class="botao"
+              href="../orcamento.html?tipo=bikcraft&produto=magic"
+              >Comprar Agora</a
+            >
             <span class="font-1-xs c6">
               <img src="../img/icones/entrega.svg" alt="" /> Entrega em 5
               dias</span
@@ -123,11 +130,16 @@
     </article>
     <article class="seguro-bg">
       <div class="seguro ajus-larg">
-          <img src="../img/fotos/seguros.jpg" alt="" />
+        <img src="../img/fotos/seguros.jpg" alt="" />
         <div class="seguro-textos">
-          <h1 class="font-1-xxl c0">Pedale mais tranquilo com o nosso <span>seguro.</span></h1>
-          <p class="font-2-l c5">Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.</p>
-          <a class="botao" href="./orcamento.html">CONHEÇA MAIS</a>
+          <h1 class="font-1-xxl c0">
+            Pedale mais tranquilo com o nosso <span>seguro.</span>
+          </h1>
+          <p class="font-2-l c5">
+            Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite
+            diversos benefícios.
+          </p>
+          <a class="botao" href="../seguros.html">CONHEÇA MAIS</a>
         </div>
       </div>
     </article>
@@ -145,13 +157,19 @@
             </ul>
             <ul class="redes">
               <li>
-                <a href=""><img src="./img/redes/instagram.svg" alt="instagram" /></a>
+                <a href=""
+                  ><img src="../img/redes/instagram.svg" alt="instagram"
+                /></a>
               </li>
               <li>
-                <a href=""><img src="./img/redes/facebook.svg" alt="facebook" /></a>
+                <a href=""
+                  ><img src="../img/redes/facebook.svg" alt="facebook"
+                /></a>
               </li>
               <li>
-                <a href=""><img src="./img/redes/youtube.svg" alt="youtube" /></a>
+                <a href=""
+                  ><img src="../img/redes/youtube.svg" alt="youtube"
+                /></a>
               </li>
             </ul>
           </div>
@@ -170,5 +188,6 @@
         >
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>
